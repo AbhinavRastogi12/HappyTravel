@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    
+    
+}
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+
+
+}
+
+.container h1 ,p{
+    text-align: center;
+
+}
+p{
+    font-size: 17px;
+}
+
+
+input, textarea, .btn{
+
+    display: block;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    border: 3px solid orange;
+    border-radius: 19px;
+    text-align: center;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.8;
+    
+    
+}
+
+.btn{
+    color: white;
+    background: orange;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.btn:hover{
+    background-color: orange;
+    opacity: 2;
+    
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    
+
+}
+
+.submitmsg{
+    font-size: 25px;
+    color: green;
+}
